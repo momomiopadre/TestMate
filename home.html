@@ -1,4 +1,99 @@
 <!DOCTYPE html>
 <html>
+    <header>
+        <link rel="stylesheet" href="home.css">
+    </header>
     
+    <body>
+        <h2>Materia Di Insegnamento</h2>
+        <select style="width: fit-content;">
+            <option value="1">Seleziona una materia</option>
+            <option value="2">Scienze</option>
+            <option value="3">Matematica</option>
+            <option value="4">Storia</option>
+            <option value="5">Inglese</option>
+            <option value="6">Fisica</option>
+            <option value="7">Diritto</option>
+            <option value="8">Tecnologia rappresentazione grafica</option>
+            <option value="9">Informatica</option>
+            <option value="10">Scienze motoria</option>
+          </select>
+
+          <br><br><br>
+        <h2>Seleziona periodo scolastico</h2>
+        <form>
+            <input type="radio" id="Trimestre" name="Selector" value="Trimestre">
+            <label for="Trimestre">Trimstre</label>
+            <input type="radio" id="Pentamestre" name="Selector" value="Pentamestre">
+            <label for="Pentamestre">Pentamestre</label><br>
+          </form>
+        <br><br><br>
+        <h2>Quanti voti vuoi assegnare per un singolo alunno</h2>
+
+        <form>
+            <label for="quantity"></label>
+            <input style="width: 10%;" type="number" id="quantity" name="quantity" min="1" max="10">
+          </form>
+          <br><br>
+
+
+
+
+          <h2>Ore di insegnamento settimanali e come sono suddivisi </h2><br>
+          
+
+          <table> <tr> <th><p style="padding-right: 50px;">Lunedì</p></th> <th><select>
+             <option value="opzione1">Seleziona numero ore</option>
+             <option value="opzione2">1</option>
+             <option value="opzione3">2</option>
+             <option value="opzione3">3</option></th></tr>
+             </table>
+            </select>
+
+        
+          <table> <tr> <th><p style="padding-right: 45px;">Martedì</p></th> <th><select>
+             <option value="opzione1">Seleziona numero ore</option>
+             <option value="opzione2">1</option>
+             <option value="opzione3">2</option>
+             <option value="opzione3">3</option></th></tr>
+             </table>
+            </select>
+
+        
+         <table> <tr> <th><p style="padding-right: 27px;">Mercoledì</p></th> <th><select>
+            <option value="opzione1">Seleziona numero ore</option>
+            <option value="opzione2">1</option>
+            <option value="opzione3">2</option>
+            <option value="opzione3">3</option></th></tr>
+            </table>
+           </select>
+
+
+         <table> <tr> <th><p style="padding-right: 43px;">Giovedì</p></th> <th><select>
+            <option value="opzione1">Seleziona numero ore</option>
+            <option value="opzione2">1</option>
+            <option value="opzione3">2</option>
+            <option value="opzione3">3</option></select></th></tr>
+            </table>
+           
+         
+          
+           <table> <tr> <th><p style="padding-right: 43px;">Venerdì</p></th> <th><select>
+              <option value="opzione1">Seleziona numero ore</option>
+              <option value="opzione2">1</option>
+              <option value="opzione3">2</option>
+              <option value="opzione3">3</option></th></tr>
+              </table>
+            </select>
+
+
+           <br><br><br>
+           <center><button>Genera calendario</button></center>
+
+           <br><br><br> <br><br><br>
+
+        
+        
+          
+    </body>
 </html>

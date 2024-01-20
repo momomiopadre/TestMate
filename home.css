@@ -1,0 +1,28 @@
+select {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+h2,p {
+color: #3D3B40;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    zoom: 110%;
+}
+
+button{
+    width: 225px;
+    height: 40px;
+    background-color: #525CEB;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+}
+
+select {
+        width: 200px;
+        height: 30px;
+}
