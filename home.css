@@ -1,0 +1,30 @@
+body {
+  font-family: "Inter";
+  font-size: 1rem;
+  background-color: #bfcfe7;
+}
+
+.title-section {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: #525ceb;
+}
+
+.presentation-section {
+  margin: 8%;
+  text-align: center;
+  font-size: 2rem;
+  color: #3d3b40;
+}
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.9rem 2rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  background-color: #525ceb;
+}
